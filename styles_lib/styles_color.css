@@ -464,7 +464,7 @@ margin-top: -20px;
 }
 
 
-.tabrow0 .here a, .tabrow0 .here a:hover {
+.here a, .tabrow0 .here a:hover {
   background-image: url(../pix/tab/left_selected.png);
 }
 
