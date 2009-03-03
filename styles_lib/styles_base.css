@@ -1,8 +1,8 @@
 /* Core */
 
 #shrinkwrapper {
-  width: 994px;
   margin: 0 auto;
+  width: 96%;
 }
 
 input[type=text], input[type="password"], select {
@@ -83,12 +83,15 @@ table.translator,
 }
 
 .headerimg {
-  padding:11px 17px 5px;
+  border-style: solid;
+  border-color: white;
+  border-width: 11px 17px 10px;
+  background-color: #00a6d6;
+  height: 95px;
 }
 
 .description {
   padding:5px 22px 5px 11px;
-  float:right;
   clear:both;
 }
 
@@ -290,6 +293,14 @@ body#admin-index .copyright {
 .section .side {
   border-color: #ddd;
   background: #f5f5f5;
+}
+
+#course-view .hidden .summary h1,
+#course-view .hidden .side {
+  color: #bbb !important;
+}
+#course-view .hidden .side {
+  background-color: white;
 }
 
 #course-view .current .content {

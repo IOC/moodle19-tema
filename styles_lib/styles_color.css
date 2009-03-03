@@ -19,15 +19,7 @@ body {
 }
 
 #contentwrapper {
-  background:#FFFFFF;
-}
-
-#contentwrapper-left {
-  background:transparent url(pix/page_left.png) repeat-y scroll left top;
-}
-
-#contentwrapper-right {
-  background:transparent url(pix/page_right.png) repeat-y scroll right top;
+  background: white;
 }
 
 input[type=text], input[type="password"], select {
@@ -477,4 +469,9 @@ margin-top: -20px;
 
 .tabrow0 ul {
   background: transparent url(../pix/tab/tabrow1.gif) repeat-x center left;
+}
+
+/* Color de fons blanc per a elements que sobresurten */
+#layout-table, #user-grades {
+    background-color: white;
 }
