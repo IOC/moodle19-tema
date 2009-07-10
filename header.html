@@ -58,20 +58,14 @@
 <div id="contentwrapper">
 
 <?php if ($heading) {  // This is what gets printed on any other page with a heading ?>
-        
-  <div class="headerimg">
-<img src="<?php echo $CFG->themewww .'/'. current_theme() ?>/styles_lib/pix/<?php
-    global $IOC_CATEGORIA;
-    switch ($IOC_CATEGORIA) {
-        case 'GES':
-            echo 'capGES.png'; break;
-        case 'FP':
-            echo 'capFP.png'; break;
-        case 'Batxillerat':
-            echo 'capBATX.png'; break;
-        default:
-            echo 'cap.png';
-    } ?>" alt="GES" width="960" height="95" />
+<?php
+  global $IOC_CATEGORIA;
+  $caps = array('GES' => 'cap_ges', 'FP' => 'cap_fp',
+                'Batxillerat' => 'cap_batx');
+  $cap = isset($caps[$IOC_CATEGORIA]) ? $caps[$IOC_CATEGORIA] : '';
+?>
+  <div class="headerimg <?php echo $cap ?>">
+  <img src="<?php echo $CFG->themewww .'/'. current_theme() ?>/styles_lib/pix/cap.png" alt="Institut Obert de Catalunya" width="140" height="95"/>
   </div>
 <div id="bignavwrap">  
     <div id="breadcrumb-wrap-left">

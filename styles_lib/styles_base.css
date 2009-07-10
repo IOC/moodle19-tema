@@ -86,8 +86,20 @@ table.translator,
   border-style: solid;
   border-color: white;
   border-width: 11px 17px 10px;
-  background-color: #00a6d6;
+  background: #00a6d6 url(pix/cap_.png) no-repeat top right;
   height: 95px;
+}
+
+.headerimg.cap_batx {
+  background-image: url(pix/cap_batx.png);
+}
+
+.headerimg.cap_fp {
+  background-image: url(pix/cap_fp.png);
+}
+
+.headerimg.cap_ges {
+  background-image: url(pix/cap_ges.png);
 }
 
 .description {
