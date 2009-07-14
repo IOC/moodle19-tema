@@ -329,9 +329,8 @@ body#admin-index .copyright {
   margin-bottom: 0;
 }
 
-.courseoverviewbox {
+.course-overview {
   padding-left: 20px;
-  display: none;
 }
 
 #course-index table.categorylist td.category{
