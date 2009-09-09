@@ -1,5 +1,10 @@
 /* Core */
 
+/* Bug TinyMCE */
+.mceLayout tr td {
+    padding: 0 !important;
+}
+
 #shrinkwrapper {
   margin: 0 auto;
   width: 96%;
