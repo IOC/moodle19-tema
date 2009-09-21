@@ -93,6 +93,7 @@ table.translator,
   border-width: 11px 17px 10px;
   background: #00a6d6 url(pix/cap_.png) no-repeat top right;
   height: 95px;
+  text-align: left;
 }
 
 .headerimg.cap_batx {
