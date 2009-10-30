@@ -63,6 +63,10 @@
   $caps = array('GES' => 'cap_ges', 'FP' => 'cap_fp',
                 'Batxillerat' => 'cap_batx');
   $cap = isset($caps[$IOC_CATEGORIA]) ? $caps[$IOC_CATEGORIA] : '';
+  global $COURSE;
+  if ($COURSE->shortname == '101PIM') {
+    $cap = 'cap_iocodrom';
+  }
 ?>
   <div class="headerimg <?php echo $cap ?>">
   <img src="<?php echo $CFG->themewww .'/'. current_theme() ?>/styles_lib/pix/cap.png" alt="Institut Obert de Catalunya" width="140" height="95"/>

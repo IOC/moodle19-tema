@@ -108,6 +108,10 @@ table.translator,
   background-image: url(pix/cap_ges.png);
 }
 
+.headerimg.cap_iocodrom {
+  background-image: url(pix/cap_iocodrom.png);
+}
+
 .description {
   padding:5px 22px 5px 11px;
   clear:both;
