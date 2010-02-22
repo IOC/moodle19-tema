@@ -6,7 +6,11 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 
-$THEME->sheets = array('styles_screen');
+$THEME->sheets = array('styles_reset',
+                       'styles_type',
+                       'styles_base',
+                       'styles_color',
+                       'styles_links');
 
 /// This variable is an array containing the names of all the 
 /// stylesheet files you want included in this theme, and in what order
