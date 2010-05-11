@@ -4,7 +4,8 @@
     <?php echo $meta ?>
     <meta name="keywords" content="moodle, <?php echo $title ?> " />
     <title><?php echo $title ?></title>
-    <link rel="shortcut icon" href="<?php echo $CFG->themewww .'/'. current_theme() ?>/favicon.png" />
+    <link rel="shortcut icon" href="<?php echo $CFG->themewww .'/'. current_theme() . '/'
+                . (empty($CFG->proves) ? 'favicon.png' : 'favicon_proves.png'); ?>" />
     <?php include("$CFG->javascript"); ?>
 
         <!--[if lt IE 7.]>
@@ -68,8 +69,10 @@
     $cap = 'cap_iocodrom';
   }
 ?>
-  <div class="headerimg <?php echo $cap ?>">
-  <img src="<?php echo $CFG->themewww .'/'. current_theme() ?>/pix/cap.png" alt="Institut Obert de Catalunya" width="140" height="95"/>
+  <div class="headerimg <?php echo $cap . (empty($CFG->proves) ? '' : ' proves'); ?>">
+  <img src="<?php echo $CFG->themewww .'/'. current_theme() . '/pix/'
+            . (empty($CFG->proves) ? 'cap.png' : 'cap_proves.png') ?>"
+       alt="Institut Obert de Catalunya" width="140" height="95"/>
   </div>
 <div id="bignavwrap">  
     <div id="breadcrumb-wrap-left">

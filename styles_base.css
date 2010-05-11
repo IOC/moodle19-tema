@@ -96,6 +96,10 @@ table.translator,
   text-align: left;
 }
 
+.headerimg.proves {
+    background-color: orange;
+}
+
 .headerimg.cap_batx {
   background-image: url(pix/cap_batx.png);
 }
