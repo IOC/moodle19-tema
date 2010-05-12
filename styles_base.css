@@ -68,7 +68,6 @@ table.translator,
 /* Header */
 
 #header-home, #header {
-  height:60px;
 }
 
 #header-home .headermain {
@@ -134,6 +133,7 @@ table.translator,
 #headermenuwrap {
   float:right;
   text-align:right;
+  margin-bottom: 10px;
 }
 
 .headermenu {
