@@ -60,11 +60,14 @@
 
 <?php if ($heading) {  // This is what gets printed on any other page with a heading ?>
 <?php
-  global $IOC_CATEGORIA;
-  $caps = array('GES' => 'cap_ges', 'FP' => 'cap_fp',
-                'Batxillerat' => 'cap_batx');
-  $cap = isset($caps[$IOC_CATEGORIA]) ? $caps[$IOC_CATEGORIA] : '';
-  global $COURSE;
+  $cap = '';
+  $category = local_root_category_name();
+  $cap_categories = array('GES' => 'cap_ges',
+                          'FP' => 'cap_fp',
+                          'Batxillerat' => 'cap_batx');
+  if (isset($cap_categories[$category])) {
+    $cap = $cap_categories[$category];
+  }
   if ($COURSE->shortname == '101PIM') {
     $cap = 'cap_iocodrom';
   }
