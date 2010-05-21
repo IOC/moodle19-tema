@@ -62,7 +62,8 @@ table.translator,
 }
 
 #content {
-  padding:20px 17px 20px;
+  padding: 0 17px 20px;
+  margin-top: 5px;
 }
 
 /* Header */
@@ -220,6 +221,10 @@ table.translator,
   margin-bottom: 0;
 }
 
+#course-title {
+  padding: 5px 25px;
+  margin-bottom: 5px;
+}
 
 /* Admin */ 
 
