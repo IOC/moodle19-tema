@@ -12,6 +12,34 @@
         <script defer type="text/javascript" src="<?php echo $CFG->themewww .'/'. current_theme() ?>/pngfix.js"></script>
         <![endif]-->
 
+   <style type="text/css">
+     #ie6 {
+       background-color: #ff4444;
+       padding: 5px;
+     }
+
+     #ie6 img {
+       display: block;
+       float: left;
+     }
+
+     #ie6_message {
+       float: left;
+       margin-left: 10px;
+       padding: 5px;
+       width: 800px;
+       color: black;
+       font-size: 16px;
+     }
+
+     #ie6_clear {
+       clear: both;
+     }
+
+     #ie6_message a {
+       color: #4444ff;
+     }
+   </style>
 </head>
 
 <body<?php
@@ -20,7 +48,17 @@
         echo " onload=\"setfocus()\"";
     }
     ?>>
-
+<?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 6.') !== false) { ?>
+<div id="ie6">
+  <img width="64" height="64" alt="Atenció!"
+       src="<?php echo $CFG->themewww .'/'. current_theme() . '/warning.gif'; ?>" />
+  <div id="ie6_message">
+    A partir del <strong>3 de novembre</strong> no podreu accedir al campus amb l'Internet Explorer 6.<br/> 
+    Actualitzeu el vostre navegador o instal·leu-ne un altre, us recomanem el <a href="http://www.mozilla-europe.org/ca/firefox/">Mozilla Firefox</a>.
+  </div>
+  <div id="ie6_clear"></div>
+</div>
+<?php } ?>
 <div id="page">
 
 
