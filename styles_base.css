@@ -266,6 +266,19 @@ body#admin-index .copyright {
 .logselectform {
   text-align: left;
 }
+
+#admin-index .adminerror {
+  text-align: center;
+  border: 2px solid red;
+  margin:20px;
+}
+
+#admin-index .adminwarning {
+  text-align: center;
+  border: 2px solid orange;
+  margin:20px;
+}
+
 /* Sideblocks */
 
 .sideblock .title h2 {
