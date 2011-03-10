@@ -226,6 +226,10 @@ table.translator,
   margin-bottom: 5px;
 }
 
+#ioc-links {
+    text-align: right;
+}
+
 /* Admin */ 
 
 body#admin-index .copyright {

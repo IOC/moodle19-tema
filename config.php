@@ -186,7 +186,4 @@ $THEME->layouttable = array('left', 'middle', 'right');
 /// use &lt; &gt; &raquo; - these are confusing for blind users.
 ////////////////////////////////////////////////////////////////////////////////
 
-$THEME->rarrow = '>';
-$THEME->larrow = '<';
-
 ?>
