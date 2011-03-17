@@ -18,7 +18,7 @@ select {
   padding: 0em;
 }
 
-input[type=submit], input[type="button"], button[type="submit"], button[type="file"] {
+input[type=submit], input[type="reset"], input[type="button"], button[type="submit"], button[type="file"] {
   padding: 0.25em;
   margin-left:0.50em;
   margin-right:0.50em;

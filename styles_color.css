@@ -32,7 +32,7 @@ input[type=text], input[type="password"], select {
   color: #333333;
 }
 
-input[type=submit], input[type="button"], button[type="submit"], button[type="file"] {
+input[type=submit], input[type="reset"], input[type="button"], button[type="submit"], button[type="file"] {
   border: 1px double #999999;
   border-top-color: #CCCCCC; 
   border-left-color: #CCCCCC;

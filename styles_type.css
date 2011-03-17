@@ -14,7 +14,7 @@ input[type=text], input[type="password"], select {
   font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
-input[type=submit], input[type="button"], button[type="submit"], button[type="file"] {
+input[type=submit], input[type="reset"], input[type="button"], button[type="submit"], button[type="file"] {
   font-size: 80%;
   font-weight: bold;
   font-family: Verdana, Helvetica, Arial, sans-serif;
