@@ -468,7 +468,8 @@ margin-top: -20px;
 /*subnav*/
 
 .tabrow0 ul {
-  background: transparent url(pix/tab/tabrow1.gif) repeat-x center left;
+    background: none;
+    border-bottom: 1px solid #aaa;
 }
 
 /* Color de fons blanc per a elements que sobresurten */

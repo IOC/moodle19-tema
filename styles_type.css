@@ -162,3 +162,11 @@ code {
 #mod-glossary-index .cell {
   font-size:0.8em;
 }
+
+.tabrow0 ul {
+    line-height: 1.2;
+}
+
+ul.tabrow1 li a {
+    white-space: nowrap;
+}
