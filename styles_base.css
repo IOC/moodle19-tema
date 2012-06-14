@@ -330,8 +330,9 @@ body#admin-index .copyright {
 }
 /* Course */
 
-.coursebox h2 {
+.categorybox h2, .coursebox h2 {
   text-align: left;
+  margin-bottom: 6px;
 }
 
 .section .content {

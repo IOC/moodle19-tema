@@ -146,85 +146,22 @@ img.grouppicture,
 }
 
 .sideblock .title h2 {
-  background: url(bg/star.png) no-repeat bottom left;
-  padding: 0 0 6px 25px;
+  border-bottom: 1px solid #8a97a0;
+  margin-bottom: 6px;
   color: #58656A;
 }
 
 .star,
 h2.headingblock,
 .block_site_main_menu .title h2 {
-  background: url(bg/star.png) no-repeat bottom left;
-  padding: 0 0 6px 25px;
-  font-weight:bold; 
+  border-bottom: 1px solid #8a97a0;
+  font-weight: bold;
+  padding: 0;
 }
 
-.block_blog_menu .title h2 {
-  background: url(bg/tag_edit.png) no-repeat bottom left;
-  padding: 0 0 6px 25px;
-}
-
-.block_blog_tags .title h2 {
-  background: url(bg/tag.png) no-repeat bottom left;
-  padding:0 0 6px 25px;
-}
-
-.block_news_items .title h2 {
-  background: url(bg/news.png) no-repeat left;
-  padding: 0 0 3px 25px;
-}
-.block_recent_activity .title h2,
-.block_glossary_random .title h2 {
-  background: url(bg/title.png) no-repeat bottom left;
-  padding: 0 0 6px 25px;
-}
-
-.block_online_users .title h2,
-.block_participants .title h2 {
-  background: url(bg/users.png) no-repeat bottom left;
-  padding: 0 0 6px 25px;
-}
-
-.block_calendar_month .title h2,
-.block_calendar_upcoming .title h2 {
-  background: url(bg/calendar.png) no-repeat bottom left;
-  padding: 0 0 6px 25px;
-}
-
-.block_login .title h2 {
-  background: url(bg/keys.png) no-repeat bottom left;
-  padding: 0 0 6px 25px;
-}
-
-.block_course_list .title h2 {
-  background: url(bg/pencil.png) no-repeat bottom left;
-  padding: 0 0 6px 25px;
-}
-
-.block_activity_modules .title h2 {
-  background: url(bg/activities.png) no-repeat bottom left;
-  padding: 0 0 6px 25px;
-}
-
-.block_messages .title h2 {
-  background: url(bg/message.png) no-repeat left;
-  padding: 0 0 6px 25px;
-}
-
-.block_admin_tree .title h2 {
-  background: url(bg/blank.png) no-repeat bottom left;
-  padding: 0 0 6px 3px;
-}
-
-.block_search_forums .title h2,
-.block_search .title h2 {
-  background: url(bg/search.png) no-repeat left;
-  padding: 0 0 3px 25px;
-}
-
-.block_rss_client .title h2 {
-  background: url(bg/rss.png) no-repeat left;
-  padding: 0 0 3px 25px;
+body#site-index .headingblock,
+body#course-view .headingblock {
+  margin-bottom: 15px;
 }
 
 /* Calendar */
