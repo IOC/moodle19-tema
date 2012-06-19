@@ -370,6 +370,23 @@ body#admin-index .copyright {
   padding-left: 20px;
 }
 
+.rcourse-overview{
+  padding-left:20px;
+}
+
+.roverview-link{
+  margin-left:1em;
+}
+
+.roverview-link img{
+   margin-right:0;
+}
+
+.remote-error{
+  margin-left:1em;
+ font-size:1em;
+}
+
 #course-index table.categorylist td.category{
   padding-top: 25px;
 }
