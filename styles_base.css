@@ -330,9 +330,23 @@ body#admin-index .copyright {
 }
 /* Course */
 
-.categorybox h2, .coursebox h2 {
+.categorybox h2, .coursebox h2, .categorybox h3 {
   text-align: left;
   margin-bottom: 6px;
+}
+
+#rcourse-list h3.main {
+  padding: 0;
+}
+
+
+#rcourse-list .categorybox {
+  margin-top: 1em;
+}
+
+
+.roverview-link {
+  margin-left: 0.5em;
 }
 
 .section .content {
