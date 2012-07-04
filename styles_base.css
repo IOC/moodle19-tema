@@ -344,6 +344,9 @@ body#admin-index .copyright {
   margin-top: 1em;
 }
 
+.myhidden {
+  display: none;
+}
 
 .roverview-link {
   margin-left: 0.5em;
