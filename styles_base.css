@@ -352,6 +352,15 @@ body#admin-index .copyright {
   margin-left: 0.5em;
 }
 
+.myremote-message {
+  margin: 1em;
+  border: 1px solid #00A6D6;
+  padding: 1em;
+  font-size: 1.1em;
+  background: #f5f9ff;
+  color: black;
+}
+
 .section .content {
   border-color: #ddd;
 }
