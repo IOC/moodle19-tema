@@ -456,9 +456,16 @@ body#admin-index .copyright {
   text-align:left;
 }
 
+.groupmanagementtable {
+  background: #f9f9f9;
+}
+
 .groupmanagementtable td {
   padding: 25px;
-  background: #f9f9f9;
+}
+
+.groupmanagementtable select {
+    width: 27em;
 }
 
 /* Calendar */
