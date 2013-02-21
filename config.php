@@ -5,6 +5,9 @@
 /// how Moodle uses this theme.
 ////////////////////////////////////////////////////////////////////////////////
 
+if (!isset($THEME)) {
+    $THEME = new object;
+}
 
 $THEME->sheets = array('styles_reset',
                        'styles_type',
